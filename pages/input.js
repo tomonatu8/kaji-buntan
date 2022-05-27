@@ -18,9 +18,6 @@ import AllocationList from 'components/allocationList';
 
 import GuideTalk from 'components/guideTalk';
 
-
-import { isMobile } from "react-device-detect"
-
 // TabPanel -> https://mui.com/material-ui/react-tabs/
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
